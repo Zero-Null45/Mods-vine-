@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "orechop",
+  "version": "${version}",
+  "name": "OreChop",
+  "description": "Mineracao progressiva de veios, inspirada na ideia de derrubar arvores por etapas.",
+  "authors": ["Independent implementation"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["br.orechop.OreChop"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
